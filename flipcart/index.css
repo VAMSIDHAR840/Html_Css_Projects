@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+}
+.navbar1{
+    height: 80px;
+    width: 100%;
+    background-color: #2874f0;
+    display: flex;
+    justify-content: center;
+}
+.navx{
+    height: 80px;
+    width:80%;
+    display: flex;
+    align-items: center;
+}
+.logoa{
+    height: 80px;
+    width: 15%;
+    margin-top: 30px;
+   
+}
+.logoa h4{
+    margin-top: -10px ;
+    color: grey;
+    font-style: italic;
+    font-size: 20px;
+}
+.logoa span{
+    color: gold;
+    font-size: 15px;
+}
+.login{
+    height: 80px;
+    width: 15%;
+        display: flex;
+        align-items: center;
+}
+.login button{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    color: blue;
+}
+.searcha{
+    height: 80px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+.searcha svg{
+    height: 40px; 
+    fill: rgb(154, 230, 245);
+    width: 30px;
+    font-size: 6px;
+    border-radius: 5px;
+    transform: translateX(-50px);
+}
+.searcha input{
+    height: 40px;
+    width: 500px;
+    border: none;
+    border-radius: 5px;
+
+}
+.searcha input::placeholder{
+height: 30px;
+font-size: 17px;
+text-align: center;
+
+}
+
+.logoa img{
+    color: white;
+}
+.data{
+    height: 80px;
+    width:25% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.data h5{
+    color: white;
+    font-size: 17px;
+}
+.data select{
+    font-size: 17px;
+    border-radius: 5px;
+}
+.next{
+    height: 100px;
+    width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.next1
+{
+    height: 100px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.next1 a{
+    text-decoration: none;
+    color: black;
+}
+.nav1{
+    text-align: center;
+}
+.nav1:hover{
+    color: blue;
+}
+.carousel{
+height: 150px;
+width: 100%;
+}
+.carousel-item{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+#carouselExample{
+    /* height: 220px; */
+    /* width: 100%; */
+}
+#carouselExample img{
+    /* height: 220px; */
+    /* width: 180px; */
+}
